@@ -62,7 +62,6 @@ $(document).ready(function(){
     div.innerHTML = pHtml;
     document.body.append(div);
     setTimeout(function() {
-        //$(div).show(1000);
         $(div).slideDown(800);
-    }, 1000);
+    }, 10000);
 });
