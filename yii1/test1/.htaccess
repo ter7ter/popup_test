@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^(.*)popup([0-9]+)\.js$ index.php?r=testPopup/js&id=$2 [L]
